@@ -1,3 +1,10 @@
+const React = window.React;  // Yeh line add karo
+const ReactDOM = window.ReactDOM;  // Yeh bhi add karo
+
+// Claude ka code yahan se shuru...
+import { useState } from 'react';
+// ... rest of your code
+
 import { useState } from 'react';
 import { Wallet, Clock, Settings, BarChart3, MessageSquare, ArrowRightCircle, ArrowLeftCircle, Phone, Search, X, ChevronDown, PlusCircle, DollarSign } from 'lucide-react';
 
@@ -337,3 +344,6 @@ export default function UnifiedPaymentWallet() {
     </div>
   );
 }
+
+// Yeh last line add karo
+ReactDOM.render(<UnifiedPaymentWallet />, document.getElementById('root'));
